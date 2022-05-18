@@ -8,7 +8,10 @@
   --main-color: #000;
   --letter: #fff;
 }
-
+html,
+body {
+  overflow: hidden;
+}
 html {
   font-size: 62.5%;
   font-family: 'Montserrat', sans-serif;
@@ -82,9 +85,7 @@ nav {
   display: block;
   cursor: pointer;
 }
-body {
-  overflow-x: hidden;
-}
+
 .main--container,
 .main--info,
 .main--technologies {
