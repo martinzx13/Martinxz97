@@ -1,3 +1,19 @@
-.mobile-menu  {
-    display: none;
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 2% 6%;
+  align-items: center;
+  background: transparent;
+  height: 8vh;
+}
+.nav-list {
+  list-style: none;
+  display: flex;
+}
+.nav-list li {
+  letter-spacing: 3px;
+  margin-left: 48px;
+}
+.mobile-menu {
+  display: none;
 }
