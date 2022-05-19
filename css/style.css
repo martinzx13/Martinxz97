@@ -109,27 +109,63 @@ nav {
 .mobile-menu {
   display: block;
   cursor: pointer;
-  margin-left: 90%;
+  padding-left: 70%;
 }
 .main--info {
   display: flex;
   flex-wrap: wrap;
-  align-items: center;
 }
 .main--img--container {
+  border-radius: 25%;
+  background: rgb(27, 25, 25);
   display: flex;
-  width: 15rem;
+  flex-wrap: wrap;
+  width: 50%;
   height: 15rem;
 }
-.info--name {
-  width: 50%;
+.main--image {
   margin: auto;
-  font-size: 2.2rem;
+  width: 90%;
+  height: 90%;
+  object-fit: cover;
+}
+.main__info--container {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  height: 15rem;
+  align-items: center;
+  justify-content: center;
+}
+.info--name {
+  margin: auto;
+  margin: 0 1rem;
+  font-size: 2rem;
   margin-bottom: 1.5rem;
 }
 .info--description {
+  margin: 1.5rem 0.5rem;
+  background: var(--background);
+  width: 100%;
+  color: white;
+  border-radius: 1rem;
   font-size: 1.8rem;
 }
+.info--description p {
+  margin: 1rem 2rem;
+}
+
+.info--description:hover {
+  cursor: pointer;
+  background: #fff;
+}
+.info--description:hover {
+  color: white;
+}
+.info--description:hover p {
+  color: black;
+}
+
 /* 
 
 
