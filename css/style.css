@@ -20,6 +20,27 @@ html {
   scroll-padding-top: 9rem;
   scroll-behavior: smooth;
 }
+body {
+  background: linear-gradient(
+      to left bottom,
+      #65b3ee,
+      #54a7f4,
+      #4e99f7,
+      #5789f8,
+      #6a77f4
+    )
+    no-repeat center center;
+}
+section {
+  padding: 2rem 7%;
+}
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 8vh;
+}
 ul {
   list-style: none;
 }
@@ -46,29 +67,32 @@ a:hover {
   right: 0;
 }
 
-.main {
-  background: linear-gradient(
-      to left bottom,
-      #65b3ee,
-      #54a7f4,
-      #4e99f7,
-      #5789f8,
-      #6a77f4
-    )
-    no-repeat center center;
+.home {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  background-image: url('../images/background2.png');
   background-size: cover;
-  height: 90vh;
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  align-content: center;
+  background-position: left;
+  justify-content: center;
+  text-align: center;
 }
-nav {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  width: 100%;
-  height: 8vh;
+
+/* Checkar para la flex */
+.home--container {
+  max-width: 60rem;
+}
+.info--name {
+  padding: 2rem;
+}
+.home .home--container h2 {
+  text-transform: uppercase;
+  font-size: 4.5rem;
+  color: #fff;
+}
+.home .home--container h3 {
+  font-size: 1.5rem;
+  color: rgb(0, 0, 0);
 }
 .header--img--container {
   display: flex;
@@ -125,26 +149,7 @@ nav {
   width: 50%;
   height: fit-content;
 }
-.main--image {
-  margin: auto;
-  width: 90%;
-  height: 100%;
-  object-fit: cover;
-}
-.main__info--container {
-  display: flex;
-  flex-direction: column;
-  width: 50%;
-  height: 15rem;
-  align-items: center;
-  justify-content: center;
-}
-.info--name {
-  margin: auto;
-  margin: 0 1rem;
-  font-size: 2rem;
-  margin-bottom: 1.5rem;
-}
+
 .info--description {
   background: var(--background);
   width: 90%;
@@ -152,9 +157,9 @@ nav {
   border-radius: 1rem;
   font-size: 1.8rem;
 }
-.info--description p {
+/* .info--description p {
   margin: 1rem 2rem;
-}
+} */
 
 .info--description:hover {
   cursor: pointer;
@@ -177,12 +182,8 @@ nav {
   display: flex;
   align-items: center;
   flex-direction: column;
-  font-size: 1.6rem;
-  margin-right: 1rem;
+  font-size: 2.6rem;
 }
-
-/* 
-
 
 .main--container {
   display: flex;
@@ -193,16 +194,8 @@ nav {
   border-radius: 4.5rem;
   padding: 1rem;
 }
-.social--media--container {
-  margin: 2rem;
-}
 
-.main--info {
-  width: 50%;
-}
- */
-
-/* .main--links {
+.main--links {
   display: flex;
   flex-wrap: wrap;
   padding: 1rem 2rem;
@@ -219,22 +212,29 @@ nav {
   text-decoration: underline;
   background-color: rgb(70, 164, 164);
   color: var(--letter);
-} 
-.main--social-media {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  font-size: 1.6rem;
-  margin-right: 1rem;
 }
+
 .main--social-media .social--media--container {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  width: 100px;
+  align-content: center;
+  width: 25rem;
   height: 50px;
+  margin: 2rem;
 }
 
+.main--social-media .social--media--container a {
+  height: 5.5rem;
+  width: 5.5rem;
+  line-height: 5rem;
+  border: var(--border);
+  margin: 0.4rem;
+  border-radius: 50%;
+}
+.main--social-media .social--media--container a:hover {
+  background-color: rgb(11, 12, 12);
+}
 .main--technologies {
   border: 0.5rem solid black;
   background-color: aqua;
@@ -251,7 +251,8 @@ nav {
 .technologies--info img {
   width: 7.5rem;
   height: 7.5rem;
-} */
+}
+
 /* main section stars */
 @keyframes navLinkFade {
   from {

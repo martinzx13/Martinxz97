@@ -35,3 +35,7 @@ a {
 .mobile-menu {
   display: none;
 }
+.home .home--container h1 {
+  font-size: 6rem;
+  color: #fff;
+}
