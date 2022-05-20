@@ -131,6 +131,7 @@ nav {
 }
 .main__info--container {
   display: flex;
+  margin-top: calc(100vh - 37rem);
   flex-direction: column;
   width: 50%;
   height: 15rem;
