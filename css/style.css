@@ -61,6 +61,7 @@ a:hover {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
+  align-content: center;
 }
 nav {
   display: flex;
@@ -114,7 +115,7 @@ nav {
 .main--info {
   display: flex;
   flex-wrap: wrap;
-  margin-top: calc(100vh - 38rem);
+  justify-content: space-evenly;
 }
 .main--img--container {
   border-radius: 25%;
@@ -145,9 +146,8 @@ nav {
   margin-bottom: 1.5rem;
 }
 .info--description {
-  margin: 1.5rem 0.5rem;
   background: var(--background);
-  width: 100%;
+  width: 90%;
   color: white;
   border-radius: 1rem;
   font-size: 1.8rem;
@@ -165,6 +165,20 @@ nav {
 }
 .info--description:hover p {
   color: black;
+}
+/* contact section */
+.contac--container {
+  background: var(--background);
+  display: flex;
+  flex-wrap: wrap;
+  width: 90%;
+}
+.main--social-media {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-size: 1.6rem;
+  margin-right: 1rem;
 }
 
 /* 

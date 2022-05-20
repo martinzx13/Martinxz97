@@ -1,90 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="description" content="This is my portfolio" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="author" content="Martinxz13" />
-    <!-- Responsive links css -->
-    <link rel="stylesheet" href="./css/style.css" />
-    <link
-      rel="stylesheet"
-      href="./css/tablet.css"
-      media="screen and (min-width:800px)"
-    />
-    <!-- font awesome links -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;1,200&family=Quicksand:wght@300;500;700&family=Roboto:wght@100;300;400;500;700&family=Syne+Mono&family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400&display=swap"
-      rel="stylesheet"
-    />
-    <script
-      src="https://kit.fontawesome.com/e461a78418.js"
-      crossorigin="anonymous"
-    ></script>
-    <title>My Portfolio</title>
-  </head>
 
-  <body>
-    <header class="header">
-      <picture class="header--img--container">
-        <img
-          class="header--img"
-          src="./images/logo.png"
-          alt="Logo Martinxz13"
-        />
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="description" content="This is my portfolio" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="author" content="Martinxz13" />
+  <!-- Responsive links css -->
+  <link rel="stylesheet" href="./css/style.css" />
+  <link rel="stylesheet" href="./css/tablet.css" media="screen and (min-width:800px)" />
+  <!-- font awesome links -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;1,200&family=Quicksand:wght@300;500;700&family=Roboto:wght@100;300;400;500;700&family=Syne+Mono&family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400&display=swap"
+    rel="stylesheet" />
+  <script src="https://kit.fontawesome.com/e461a78418.js" crossorigin="anonymous"></script>
+  <title>My Portfolio</title>
+</head>
+
+<body>
+  <header class="header">
+    <picture class="header--img--container">
+      <img class="header--img" src="./images/logo.png" alt="Logo Martinxz13" />
+    </picture>
+    <nav class="header--nav">
+      <div class="mobile-menu">
+        <div class="line1"></div>
+        <div class="line2"></div>
+        <div class="line3"></div>
+      </div>
+      <ul class="nav--list">
+        <li>
+          <a href="./contact.html">contact</a>
+        </li>
+        <li>
+          <a href="./blog.html">blog</a>
+        </li>
+        <li>
+          <a href="./projects.html">project</a>
+        </li>
+        <li>
+          <a href="./about.html">about</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <main class="main">
+    <div class="main--info">
+      <picture class="main--img--container">
+        <img class="main--image" src="./images/picture.png" alt="my picture" />
       </picture>
-      <nav class="header--nav">
-        <div class="mobile-menu">
-          <div class="line1"></div>
-          <div class="line2"></div>
-          <div class="line3"></div>
-        </div>
-        <ul class="nav--list">
-          <li>
-            <a href="./contact.html">contact</a>
-          </li>
-          <li>
-            <a href="./blog.html">blog</a>
-          </li>
-          <li>
-            <a href="./projects.html">project</a>
-          </li>
-          <li>
-            <a href="./about.html">about</a>
-          </li>
-        </ul>
-      </nav>
-    </header>
-    <main class="main">
-      <div class="main--info">
-        <picture class="main--img--container">
-          <img
-            class="main--image"
-            src="./images/picture.png"
-            alt="my picture"
-          />
-        </picture>
-        <div class="main__info--container">
-          <h1 class="info--name">Juan Pablo Martinez Aldana</h1>
-          <h2 class="info--name">Biocheemical Engineer and game developer</h2>
-        </div>
-        <div class="info--description">
-          <p>
-            I like to work solve coding problems, and develop new things and
-            tools for everyone use
-          </p>
-        </div>
-
+      <div class="main__info--container">
+        <h1 class="info--name">Juan Pablo Martinez Aldana</h1>
+        <h2 class="info--name">Biocheemical Engineer and game developer</h2>
+      </div>
+      <div class="info--description">
+        <p>
+          I like to work solve coding problems, and develop new things and
+          tools for everyone use
+        </p>
+      </div>
+      <div class="contac--container">
         <div class="main--links">
-          <a class="main--links main--links__salmon" href="./contact.html"
-            >Contact</a
-          >
-          <a class="main--links main--links__transparent" href="./about.html"
-            >About</a
-          >
+          <a class="main--links main--links__salmon" href="./contact.html">Contact</a>
+          <a class="main--links main--links__transparent" href="./about.html">About</a0>
         </div>
         <div class="main--social-media">
           <h2>Follow me in</h2>
@@ -98,7 +79,9 @@
         </div>
       </div>
 
-      <!-- <section class="main--technologies">
+    </div>
+
+    <!-- <section class="main--technologies">
         <div class="technologies--info">
           <img
             src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/640px-React-icon.svg.png"
@@ -139,8 +122,9 @@
           <p>Blender</p>
         </div>
       </section> -->
-      <footer>Todos los derechos reservados.</footer>
-    </main>
-    <script src="./js/mobile-navbar.js"></script>
-  </body>
+    <footer>Todos los derechos reservados.</footer>
+  </main>
+  <script src="./js/mobile-navbar.js"></script>
+</body>
+
 </html>
