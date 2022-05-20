@@ -114,6 +114,7 @@ nav {
 .main--info {
   display: flex;
   flex-wrap: wrap;
+  margin-top: calc(100vh - 38rem);
 }
 .main--img--container {
   border-radius: 25%;
@@ -121,17 +122,16 @@ nav {
   display: flex;
   flex-wrap: wrap;
   width: 50%;
-  height: 15rem;
+  height: fit-content;
 }
 .main--image {
   margin: auto;
   width: 90%;
-  height: 90%;
+  height: 100%;
   object-fit: cover;
 }
 .main__info--container {
   display: flex;
-  margin-top: calc(100vh - 37rem);
   flex-direction: column;
   width: 50%;
   height: 15rem;
