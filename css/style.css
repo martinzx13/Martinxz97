@@ -67,6 +67,8 @@ a:hover {
   right: 0;
 }
 
+/* Home section starts */
+
 .home {
   min-height: 100vh;
   display: flex;
@@ -78,7 +80,6 @@ a:hover {
   text-align: center;
 }
 
-/* Checkar para la flex */
 .home--container {
   max-width: 60rem;
 }
@@ -136,19 +137,6 @@ a:hover {
   cursor: pointer;
   padding-left: 70%;
 }
-.main--info {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-}
-.main--img--container {
-  border-radius: 25%;
-  background: rgb(27, 25, 25);
-  display: flex;
-  flex-wrap: wrap;
-  width: 50%;
-  height: fit-content;
-}
 
 .info--description {
   background: var(--background);
@@ -157,9 +145,6 @@ a:hover {
   border-radius: 1rem;
   font-size: 1.8rem;
 }
-/* .info--description p {
-  margin: 1rem 2rem;
-} */
 
 .info--description:hover {
   cursor: pointer;
@@ -171,6 +156,62 @@ a:hover {
 .info--description:hover p {
   color: black;
 }
+
+/* section about starts */
+
+.about .row {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.about .row .image {
+  flex: 1 1 45rem;
+}
+.about .row .image img {
+  width: 100%;
+}
+.about .row .content {
+  flex: 1 1 45rem;
+  padding: 2rem;
+}
+.about .row .content h3 {
+  font-size: 3rem;
+  color: var(--letter);
+}
+
+.about .row .content p {
+  font-size: 1.6rem;
+  color: var(--background);
+  padding: 1rem 0;
+  line-height: 1.8;
+}
+
+.heading {
+  text-align: center;
+  color: var(--letter);
+  text-transform: uppercase;
+  font-size: 4rem;
+  padding-bottom: 3.5rem;
+}
+
+.heading span {
+  color: var(--main-color);
+}
+
+.btn {
+  
+  margin-top: 1rem;
+  display: inline-block;
+  padding: .9rem 3rem;
+  font-size: 1.7rem;
+  background: var(--main-color);
+  cursor: pointer;
+}
+.btn:hover {
+  letter-spacing: 0.2rem;
+}
+/* section about ends */
+
 /* contact section */
 .contac--container {
   background: var(--background);
@@ -185,7 +226,7 @@ a:hover {
   font-size: 2.6rem;
 }
 
-.main--container {
+/* .main--container {
   display: flex;
   justify-content: space-around;
 }
@@ -201,9 +242,9 @@ a:hover {
   padding: 1rem 2rem;
   border-radius: 1rem;
   margin: 1rem auto;
-}
+} */
 
-.main--links__salmon {
+/* .main--links__salmon {
   background-color: rgb(52, 52, 210);
   color: var(--letter);
 }
@@ -212,7 +253,7 @@ a:hover {
   text-decoration: underline;
   background-color: rgb(70, 164, 164);
   color: var(--letter);
-}
+} */
 
 .main--social-media .social--media--container {
   display: flex;

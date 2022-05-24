@@ -39,3 +39,6 @@ a {
   font-size: 6rem;
   color: #fff;
 }
+.btn {
+  color: var(--letter);
+}
